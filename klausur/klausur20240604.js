@@ -5,7 +5,9 @@ console.log("Klausur 20240604")
 
 
 console.log("Aufgabe 1")
-// 1a) Berechnen Sie das Volumen eines Würfels mit Hilfe der Grundrechenoperatoren (+ , - , * , /) , bei dem die Kantenlänge mit der Varablen a festgelegt wird.
+
+let (Listenpreis*Listenpreis*Listenpreis*Listenpreis)= VolumenWürfel;
+console.log('Das Volumen des würfels ist:'+(Listenpreis*Listenpreis*Listenpreis*Listenpreis));
 
 
 
@@ -25,6 +27,9 @@ console.log("Aufgabe 2")
 // 2a)
 // Testschreiber deklarieren pi und initialisieren pi mit dem Wert 3.14.
 
+let pi=3.14;
+
+
 
 
 // Klausurschreiber deklarieren pi und initialisieren pi mit dem Wert aus der bekannten Bibliothek namens Math. Geben Sie Math.PI an, um den Wert von Pi in einer Variablen speichern zu können.
@@ -35,6 +40,10 @@ console.log("Aufgabe 2")
 // 2b)
 // Berechnen Sie Flächeninhalt.
 
+let (Radius*Radius)=4
+let Flächeninhalt= pi * (Radius*Radius);
+
+console.log('Der Flächeninhalt ist:'+ pi* (Radius*Radius) );
 
 
 
@@ -42,12 +51,19 @@ console.log("Aufgabe 2")
 // 2c)
 // Berechnen Sie den Umfang
 
+let Radius=4;
+let Umfang= 2*pi*Radius
 
+console.log('Die Grösse des Umfang beträgt:'+ 2*(pi*Radius))
 
 
 
 // 2d)
 // Berechnen Sie den Durchmesser
+
+let Durchmesser=2*Radius;
+
+console.log('Die Grösse von dem Durchmesser beträgt:'+ 2*Radius);
 
 
 
@@ -68,17 +84,29 @@ console.log("Aufgabe 3")
 // 3a)
 // Berechnen Sie den Rabatt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
 
+let Listenpreis=16780;
+let Rabatt=5%
+
+
+
 
 
 // 3b)
 // Berechnen Sie den Netto-Rechnungsbetrag in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
 
+let a = Netto-Rechnungsbetrag
+let b = Listenpreis
+let c = Rabatt
+
+let a = b - c
+
+console.log ('Der Netto-Rechnungsbetrag hat ein Wert von:'+ (b-c))
 
 
 // 3c)
 // Berechnen Sie die MwSt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
 
-
+let MwSt=19%
 
 
 // 3d) - Nur Klausurschreiber
@@ -108,7 +136,9 @@ console.log("Aufgabe 4")
 
 // 4a)
 // Ein Kunde nimmst bei einer Bank einen Kredit über 5000 € auf. Die Laufzeit beträgt 6 Monate bei einem Zinssatz von 10%. Berechne die Zinszahlungen, die in diesem Zeitraum anfallen. Arbeiten Sie mit Variablen. Antwortsatz!
-
+let Kredit = 5000
+let Laufzeit = 180
+let Zinssatz = 0.1
 
 
 
@@ -133,18 +163,24 @@ console.log("Aufgabe 5")
 // Erstellen Sie die notwendigen Variablen und weisen Sie beispielhaft Werte zu. 
 // Erstellen Sie zusätzlich eine Variable für den Namen der Person.
 
+let m = 20
+let l = 1.45
+let name = Sophie
+
 
 
 
 // 5b)
 // Führen Sie die Berechnung durch.
+ let BMI = m/(1*1)
+
 
 
 
 // 5c) 
 // Geben Sie den Antwortsatz nach folgendem Muster aus. Die Werte werden aus den Variablen und der vorherigen Berechnung erzeugt: "Pit hat bei einer Körpergröße von 170 cm und einem Körpergewicht von 68 kg einen BMI von 24."
 
-
+console.log('Sophie hat bei einer Körpergrösse von:' + 1.45' und einem Körpergewicht von:'+20'einen BMI von:' (m/(1*1))
 
 
 // 5d - Nur Klausurschreiber
